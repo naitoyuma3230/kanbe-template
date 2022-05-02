@@ -107,6 +107,7 @@ section {
 
 .catch-container-box {
 	width: 100vw;
+	height: 0;
 	position: relative;
 }
 
