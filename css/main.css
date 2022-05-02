@@ -119,7 +119,7 @@ section {
 
 .catch-container {
 	position: absolute;
-	top: 200px;
+	top: -800px;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
