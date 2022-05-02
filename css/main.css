@@ -1,0 +1,89 @@
+@font-face {
+	/*フォントの名前*/
+	font-family: "mouhitu";
+	/*フォントファイルへのパス（複数指定の場合、上から順に読み込まれる）*/
+	src: url("../fonts/mouhitu.woff2") format("woff2"),
+		url("../fonts/mouhitu.woff") format("woff");
+}
+.mamelonClass {
+	font-family: "mamelon";
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: "Yuji Syuku";
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+section {
+	width: 100%;
+}
+
+.top-container-bg-hanabi {
+	position: relative;
+	width: 100%;
+	height: 540px;
+}
+
+.catch-container {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	z-index: 2;
+}
+
+.top-title {
+	padding: 20px 0;
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 20px;
+}
+
+.top-title > h1 {
+	background-image: linear-gradient(
+		135deg,
+		#b8751e 0%,
+		#ffce08 37%,
+		#fefeb2 47%,
+		#fafad6 50%,
+		#fefeb2 53%,
+		#e1ce08 63%,
+		#b8751e 100%
+	);
+	-webkit-background-clip: text;
+	color: transparent;
+	font-size: 48px;
+	font-family: "mouhitu";
+}
+
+.fuzi-bridge-illust {
+	position: absolute;
+	bottom: 0;
+	background: no-repeat bottom;
+	background-image: url(../assets/illust/fuzi-gray1.png);
+	background-size: contain;
+	background-color: rgba(0, 0, 0, 0.26);
+	width: 100%;
+	height: 100px;
+	border-bottom: 10px solid gray;
+}
+
+.catch-copy {
+	background: black;
+	width: 100%;
+	color: white;
+	text-align: right;
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-lr;
+}

@@ -1,0 +1,101 @@
+/* inactiveの要素を暗くしない */
+.swiper-slide-next {
+	opacity: 1;
+}
+
+.swiper-slide-prev {
+	opacity: 1;
+}
+
+.swiper-slide-shadow-left {
+	display: none;
+}
+
+.swiper-slide-shadow-right {
+	display: none;
+}
+
+/* 矢印設定 */
+.swiper-button-prev.silver,
+.swiper-button-next.silver {
+	color: silver;
+}
+
+.swiper-button-prev:after {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f137";
+	color: #fff; /* 色を白に */
+	margin-left: 20px;
+	user-select: none;
+}
+.swiper-button-next:after {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f138";
+	color: #fff;
+	margin-right: 20px;
+	user-select: none;
+}
+.swiper-slide {
+	margin-bottom: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.swiper-slide > div {
+	border: 1px solid rgb(170, 170, 170);
+	border-radius: 20px;
+	padding: 0 10px;
+	background: white;
+	box-shadow: 0 5px 7px rgba(0, 0, 0, 0.22);
+}
+
+.swiper-background {
+	position: relative;
+	border-radius: 20px;
+	min-width: 300px;
+	min-height: 200px;
+}
+
+.swiper-title {
+	margin: 10px 10px;
+	font-size: 16px;
+}
+
+.sub-img {
+	position: absolute;
+	border: 1px solid white;
+	border-radius: 20px;
+	bottom: 0;
+	width: 40%;
+	height: 40%;
+}
+
+.sub-img.right {
+	right: 0;
+}
+
+.sub-img.left {
+	left: 0;
+}
+
+.sub-img-text {
+	color: white;
+	font-size: 1rem;
+	text-align: center;
+}
+
+.sub-title {
+	background: wheat;
+	position: absolute;
+	bottom: 10%;
+	right: 10%;
+	width: 80px;
+	height: 20px;
+}
+
+.swiper-text {
+	margin: 10px 10px;
+}
