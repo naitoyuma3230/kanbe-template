@@ -26,11 +26,12 @@ section {
 	width: 100%;
 }
 
+/* トップタイトル ID指定はYoutube背景のためのjs操作 */
 #container {
 	position: relative; /*ローディング画像などを表示す際の基点とするため指定*/
 	text-align: center;
 	background: black;
-	height: 670px;
+	height: 100vh;
 	overflow: hidden;
 }
 
@@ -57,7 +58,6 @@ section {
 #youtube-area {
 	z-index: 1; /*最背面に設定*/
 	height: auto;
-	overflow: hidden;
 }
 
 #player {
@@ -92,7 +92,7 @@ section {
 #title-box {
 	position: relative;
 	width: 100%;
-	height: 540px;
+	height: 100%;
 	z-index: 2; /*下から2番目に表示*/
 	/*天地中央配置*/
 }
@@ -152,6 +152,7 @@ section {
 	border-bottom: 10px solid gray;
 }
 
+/* キャッチコピー */
 .catch-copy {
 	background: black;
 	width: 100%;
