@@ -66,6 +66,9 @@ section {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
 	/*縦横幅指定*/
 	width: 177.77777778vh;
 	height: 56.25vw;
@@ -86,6 +89,9 @@ section {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
 	font-weight: bold;
 }
 
@@ -107,7 +113,6 @@ section {
 
 .catch-container-box {
 	width: 100vw;
-	height: 0;
 	position: relative;
 }
 
