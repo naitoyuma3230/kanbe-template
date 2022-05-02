@@ -31,7 +31,7 @@ section {
 	position: relative; /*ローディング画像などを表示す際の基点とするため指定*/
 	text-align: center;
 	background: black;
-	height: 100vh;
+	height: 90vh;
 	overflow: hidden;
 }
 
@@ -116,7 +116,7 @@ section {
 }
 
 .top-title {
-	padding: 20px 0;
+	padding: 20px;
 	-ms-writing-mode: tb-rl;
 	writing-mode: vertical-rl;
 	background: rgba(0, 0, 0, 0.6);
@@ -136,7 +136,7 @@ section {
 	);
 	-webkit-background-clip: text;
 	color: transparent;
-	font-size: 48px;
+	font-size: 32px;
 	font-family: "mouhitu";
 }
 
