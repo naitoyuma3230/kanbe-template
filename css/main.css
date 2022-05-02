@@ -61,7 +61,7 @@ section {
 		#e1ce08 63%,
 		#b8751e 100%
 	);
-	-webkit-background-clip: text;
+	/* -webkit-background-clip: text; */
 	color: transparent;
 	font-size: 48px;
 	font-family: "mouhitu";
@@ -120,6 +120,6 @@ section {
 		#e1ce08 63%,
 		#b8751e 100%
 	);
-	-webkit-background-clip: text;
+	/* -webkit-background-clip: text; */
 	color: transparent;
 }
