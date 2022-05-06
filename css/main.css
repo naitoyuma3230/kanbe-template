@@ -153,16 +153,27 @@ section {
 	font-family: "mouhitu";
 }
 
+.title-top-illust {
+	position: absolute;
+	top: 0px;
+	background: no-repeat bottom;
+	background-image: url(../assets/illust/title-top.png);
+	background-size: contain;
+	width: 100%;
+	height: 13vh;
+	border-top: 4px solid gray;
+}
+
 .fuzi-bridge-illust {
 	position: absolute;
 	bottom: 0;
 	background: no-repeat bottom;
-	background-image: url(../assets/illust/fuzi-gray1.png);
+	background-image: url(../assets/illust/title-under.png);
+	/* background-color: rgba(0, 0, 0, 0.01); */
 	background-size: contain;
-	background-color: rgba(0, 0, 0, 0.01);
 	width: 100%;
-	height: 100px;
-	border-bottom: 10px solid gray;
+	height: 13vh;
+	border-bottom: 4px solid gray;
 }
 
 /* キャッチコピー */
@@ -251,7 +262,7 @@ section {
 }
 
 .garary-list {
-	width: 95%;
+	width: 96%;
 	display: flex;
 	flex-wrap: wrap;
 }
