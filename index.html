@@ -10,7 +10,7 @@
 		<meta name="author" content="NaitoYuma" />
 		<title>神戸煙火</title>
 		<!-- Favicon-->
-		<link rel="icon" type="image/x-icon" href="assets\daioLogo-icon.ico" />
+		<!-- <link rel="icon" type="image/x-icon" href="assets\daioLogo-icon.ico" /> -->
 		<!-- Bootstrap Icons-->
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
@@ -111,33 +111,72 @@
 					</div>
 				</div>
 			</section>
-			<section>
-				<div class="garary-container">
-					<div class="garary-list">
-						<div class="img1"></div>
-						<div class="img2"></div>
-						<div class="img3"></div>
-						<div class="img4"></div>
-						<div class="section-title">
-							<div>
-								<span class="moon-icon"></span>
-								<h3>お仕事紹介</h3>
-							</div>
+			<div class="garary-container">
+				<div class="garary-list">
+					<div class="img1"></div>
+					<div class="img2"></div>
+					<div class="img3"></div>
+					<div class="img4"></div>
+					<div class="section-title">
+						<div>
+							<span class="moon-icon"></span>
+							<h3>仕事紹介</h3>
 						</div>
-						<div class="img2"></div>
-						<div class="img3"></div>
-						<div class="img6"></div>
-						<div class="img1"></div>
 					</div>
+					<div class="img2"></div>
+					<div class="img3"></div>
+					<div class="img6"></div>
+					<div class="img1"></div>
 				</div>
+			</div>
+			<div id="luxy" class="scroll-container">
+				<section class="area">
+					<div class="luxy-el" data-speed-y="-10" data-offset="500">
+						<div class="el1"></div>
+					</div>
+					<div class="box luxy-el" data-speed-y="-25" data-offset="800">
+						<h2>Area1</h2>
+						<p>
+							テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+						</p>
+					</div>
+				</section>
+				<section class="area">
+					<div class="luxy-el el2" data-speed-y="-20" data-offset="900"></div>
+					<div class="box luxy-el" data-speed-y="-25" data-offset="800">
+						<h2>Area2</h2>
+						<p>
+							テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+						</p>
+					</div>
+				</section>
+				<section class="area">
+					<div class="luxy-el el3" data-speed-y="-15" data-offset="600"></div>
+					<div class="box luxy-el" data-speed-y="-25" data-offset="800">
+						<h2>Area3</h2>
+						<p>
+							テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+						</p>
+					</div>
+				</section>
+			</div>
+			<!--/luxy-->
+			<section>
+				<h1>HELLO</h1>
 			</section>
-			<section></section>
 		</main>
 		<footer></footer>
 
 		<script src="./js/nav.js"></script>
 		<script src="./js/video.js"></script>
 
+		<!-- luxy -->
+		<script src="./plugin/luxy.js" charset="utf-8"></script>
+		<script charset="utf-8">
+			window.onload = function () {
+				luxy.init();
+			};
+		</script>
 		<!-- <script src="./js/myjs.js"></script> -->
 		<!-- <script src="./js/scroll.js"></script> -->
 		<!-- <script src="./js/loading.js"></script> -->
