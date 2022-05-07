@@ -45,10 +45,6 @@
 		<!-- mycss -->
 		<link rel="stylesheet" href="./css/main.css " />
 		<link rel="stylesheet" href="./css/nav.css" />
-		<!-- <link rel="stylesheet" href="./css/scroll.css" /> -->
-		<!-- <link rel="stylesheet" href="./css/scrollDown.css" /> -->
-		<!-- <link rel="stylesheet" href="./css/mySwiper.css" /> -->
-		<!-- <link rel="stylesheet" href="./css/loading.css" /> -->
 
 		<!-- jquery -->
 		<script src="plugin/jquery/jquery.min.js"></script>
@@ -61,9 +57,17 @@
 			});
 		</script>
 
+		<!-- luxy -->
+		<script src="./plugin/luxy.js"></script>
+		<script>
+			$(function () {
+				luxy.init();
+			});
+		</script>
+
 		<!-- swiper.js -->
-		<script src="plugin/swiper/swiper-bundle.min.js"></script>
-		<script src="js/mySwiper.js"></script>
+		<!-- <script src="plugin/swiper/swiper-bundle.min.js"></script>
+		<script src="js/mySwiper.js"></script> -->
 	</head>
 
 	<body>
@@ -115,11 +119,20 @@
 				<div class="catch-copy">
 					<div class="catch-copy-box">
 						<h2 class="font-gold">いい感じのキャッチコピー</h2>
-						<p>　端的で見た人を引き付ける文言をこのくらいの長さでここに</p>
+						<p>シンプルで見た人を引き付ける文言をこのくらいの長さでここに</p>
 						<p style="text-align: end; margin-bottom: 20px">みつを</p>
 					</div>
 				</div>
 			</section>
+			<div class="section-title">
+				<div>
+					<span class="moon-icon"></span>
+					<h3>何かの経過</h3>
+				</div>
+			</div>
+			<p style="margin-top: 100px">
+				慣性付きのスクロールは時間の経過を表現しやすいので、<br />創業からの歴史など写真つきで掲載すると良いかと
+			</p>
 			<div id="luxy" class="scroll-container">
 				<section class="area">
 					<div class="luxy-el" data-speed-y="-10" data-offset="500">
@@ -178,10 +191,8 @@
 				</section>
 			</div>
 			<!--/luxy-->
-			<p>
-				慣性付きのスクロールは時間の経過を表現しやすいので、<br />創業からの歴史など写真つきで掲載すると良いかと
-			</p>
 			<div class="luxy-heigth"></div>
+			<!-- ギャラリー -->
 			<div class="garary-container">
 				<div class="garary-list">
 					<div class="img1"></div>
@@ -200,20 +211,39 @@
 					<div class="img1"></div>
 				</div>
 			</div>
+			<p>紙芝居風に仕事内容など紹介できれば良いかと</p>
+			<p>キャッチコピー+写真のスライドと具体的な説明を交互に表示</p>
+			<!-- stickyStack -->
 			<div class="main-content-wrapper">
-				<!-- コンテナ要素　-->
 				<section>
-					<h1>Hello</h1>
-				</section>
-				<!-- スタッキング要素を必要な数だけ設置　-->
-				<section>
-					<h1>Hi</h1>
+					<div class="works-imge img2">
+						<h1>Hello</h1>
+						<p>this is my first works-image</p>
+					</div>
 				</section>
 				<section>
-					<h1>Test</h1>
+					<div class="works-imge img3">
+						<h1>Hello</h1>
+						<p>works explain</p>
+					</div>
 				</section>
 				<section>
-					<h1>Sticky</h1>
+					<div class="works-imge img4">
+						<h1>Test</h1>
+						<p>this is my second works-image</p>
+					</div>
+				</section>
+				<section>
+					<div class="works-imge img2">
+						<h1>Test</h1>
+						<p>this is my second works-image</p>
+					</div>
+				</section>
+				<section>
+					<div class="works-imge img3">
+						<h1>Test</h1>
+						<p>this is my second works-image</p>
+					</div>
 				</section>
 			</div>
 		</main>
@@ -222,13 +252,6 @@
 		<script src="./js/nav.js"></script>
 		<script src="./js/video.js"></script>
 
-		<!-- luxy -->
-		<script src="./plugin/luxy.js" charset="utf-8"></script>
-		<script charset="utf-8">
-			window.onload = function () {
-				luxy.init();
-			};
-		</script>
 		<!-- <script src="./js/myjs.js"></script> -->
 		<!-- <script src="./js/scroll.js"></script> -->
 		<!-- <script src="./js/loading.js"></script> -->
