@@ -28,7 +28,8 @@ body {
 #container {
 	position: relative; /*ローディング画像などを表示す際の基点とするため指定*/
 	text-align: center;
-	height: 100vh;
+	height: 100vh; /* 変数をサポートしていないブラウザのフォールバック */
+	height: calc(var(--vh, 1vh) * 100);
 	overflow: hidden;
 }
 
