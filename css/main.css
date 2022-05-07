@@ -339,18 +339,6 @@ body {
 	height: 100vh;
 }
 
-.works-imge:nth-child(2) {
-	margin-top: 40px;
-}
-
-.works-imge:nth-child(3) {
-	margin-top: 80px;
-}
-
-.works-imge:nth-child(4) {
-	margin-top: 80px;
-}
-
 /* Luxy */
 .scroll-container {
 	width: 100%;
