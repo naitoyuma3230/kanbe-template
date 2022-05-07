@@ -49,8 +49,17 @@
 		<!-- <link rel="stylesheet" href="./css/scrollDown.css" /> -->
 		<!-- <link rel="stylesheet" href="./css/mySwiper.css" /> -->
 		<!-- <link rel="stylesheet" href="./css/loading.css" /> -->
+
 		<!-- jquery -->
 		<script src="plugin/jquery/jquery.min.js"></script>
+
+		<!-- stickyStack.js -->
+		<script src="plugin/jquery.stickystack.min.js"></script>
+		<script>
+			$(function () {
+				$(".main-content-wrapper").stickyStack();
+			});
+		</script>
 
 		<!-- swiper.js -->
 		<script src="plugin/swiper/swiper-bundle.min.js"></script>
@@ -111,6 +120,68 @@
 					</div>
 				</div>
 			</section>
+			<div id="luxy" class="scroll-container">
+				<section class="area">
+					<div class="luxy-el" data-speed-y="-10" data-offset="500">
+						<div class="el1"></div>
+					</div>
+					<div class="box luxy-el" data-speed-y="-30" data-offset="800">
+						<h2>Area1</h2>
+						<p class="tategaki">
+							テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+						</p>
+					</div>
+				</section>
+				<section class="area">
+					<div class="luxy-el" data-speed-y="-20" data-offset="1000">
+						<div class="el2"></div>
+					</div>
+					<div class="box luxy-el" data-speed-y="-25" data-offset="900">
+						<h2>Area2</h2>
+						<p>
+							テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+						</p>
+					</div>
+				</section>
+				<section class="area">
+					<div class="luxy-el" data-speed-y="-15" data-offset="700">
+						<div class="el3"></div>
+					</div>
+					<div class="box luxy-el" data-speed-y="-22" data-offset="900">
+						<h2>Area3</h2>
+						<p>
+							テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+						</p>
+					</div>
+				</section>
+				<section class="area">
+					<div class="luxy-el" data-speed-y="-10" data-offset="500">
+						<div class="el1"></div>
+					</div>
+					<div class="box luxy-el" data-speed-y="-18" data-offset="700">
+						<h2>Area4</h2>
+						<p>
+							テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+						</p>
+					</div>
+				</section>
+				<section class="area">
+					<div class="luxy-el" data-speed-y="-10" data-offset="600">
+						<div class="el3"></div>
+					</div>
+					<div class="box luxy-el" data-speed-y="-20" data-offset="900">
+						<h2>Area5</h2>
+						<p>
+							テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+						</p>
+					</div>
+				</section>
+			</div>
+			<!--/luxy-->
+			<p>
+				慣性付きのスクロールは時間の経過を表現しやすいので、<br />創業からの歴史など写真つきで掲載すると良いかと
+			</p>
+			<div class="luxy-heigth"></div>
 			<div class="garary-container">
 				<div class="garary-list">
 					<div class="img1"></div>
@@ -129,41 +200,22 @@
 					<div class="img1"></div>
 				</div>
 			</div>
-			<div id="luxy" class="scroll-container">
-				<section class="area">
-					<div class="luxy-el" data-speed-y="-10" data-offset="500">
-						<div class="el1"></div>
-					</div>
-					<div class="box luxy-el" data-speed-y="-25" data-offset="800">
-						<h2>Area1</h2>
-						<p>
-							テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-						</p>
-					</div>
+			<div class="main-content-wrapper">
+				<!-- コンテナ要素　-->
+				<section>
+					<h1>Hello</h1>
 				</section>
-				<section class="area">
-					<div class="luxy-el el2" data-speed-y="-20" data-offset="900"></div>
-					<div class="box luxy-el" data-speed-y="-25" data-offset="800">
-						<h2>Area2</h2>
-						<p>
-							テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-						</p>
-					</div>
+				<!-- スタッキング要素を必要な数だけ設置　-->
+				<section>
+					<h1>Hi</h1>
 				</section>
-				<section class="area">
-					<div class="luxy-el el3" data-speed-y="-15" data-offset="600"></div>
-					<div class="box luxy-el" data-speed-y="-25" data-offset="800">
-						<h2>Area3</h2>
-						<p>
-							テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-						</p>
-					</div>
+				<section>
+					<h1>Test</h1>
+				</section>
+				<section>
+					<h1>Sticky</h1>
 				</section>
 			</div>
-			<!--/luxy-->
-			<section>
-				<h1>HELLO</h1>
-			</section>
 		</main>
 		<footer></footer>
 
