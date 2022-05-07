@@ -28,7 +28,7 @@ body {
 #container {
 	position: relative; /*ローディング画像などを表示す際の基点とするため指定*/
 	text-align: center;
-	height: 95vh;
+	height: 90vh;
 	overflow: hidden;
 }
 
