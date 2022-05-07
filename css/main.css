@@ -332,19 +332,50 @@ body {
 }
 
 /* Sticky */
+.sticky-container {
+	position: relative;
+	padding: 10px 0;
+}
+
 section.works-imge {
 	position: -webkit-sticky; /*Safari*/
 	position: sticky;
-	top: 0; /*Header高さ分で止まるようにする*/
 	/*装飾のためのCSS*/
 	/* padding: 100px 30px 170px 30px; */
 	min-height: 100vh;
 }
 
-section.works-imge:last-of-type {
-	padding: 170px 30px 100px 30px; /*最後のセクションだけ止まらないため、エリア内の情報が少ない時は、HEADER分の高さをpadding-topに追加して上部が見えるようにする*/
+section.works-imge:nth-child(1) {
+	top: 0; /*Header高さ分で止まるようにする*/
 }
 
+section.works-imge:nth-child(2) {
+	top: 20vh; /*Header高さ分で止まるようにする*/
+}
+
+section.works-imge:nth-child(3) {
+	top: 40vh; /*Header高さ分で止まるようにする*/
+}
+
+section.works-imge:nth-child(4) {
+	top: 60vh; /*Header高さ分で止まるようにする*/
+}
+
+section.works-imge:nth-child(5) {
+	top: 0; /*Header高さ分で止まるようにする*/
+}
+
+section.works-imge:nth-child(6) {
+	top: 20vh; /*Header高さ分で止まるようにする*/
+}
+
+section.works-imge:nth-child(7) {
+	top: 40vh;
+}
+section.works-imge:nth-child(8) {
+	background: black;
+	padding: 10px 0;
+}
 /* Luxy */
 .scroll-container {
 	width: 100%;
@@ -352,6 +383,10 @@ section.works-imge:last-of-type {
 
 .area > .luxy-el {
 	width: 100%;
+}
+
+.luxy-heigth {
+	height: 2200px;
 }
 
 /* .luxy-el > .tategaki {
@@ -380,8 +415,4 @@ section.works-imge:last-of-type {
 	/* align-items: flex-end; */
 	background: green;
 	margin: 0 auto;
-}
-
-.luxy-heigth {
-	height: 360vh;
 }
